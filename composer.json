@@ -1,23 +1,23 @@
 {
-    "name": "jlorente/laravel-zadarma",
+    "name": "mnovik/laravel-zadarma",
     "description": "Laravel ^5.6 integration for the Jlorente Zadarma package.",
     "keywords": [
         "php",
-        "jlorente",
+        "mnovik",
         "laravel",
         "zadarma"
     ],
     "license": "BSD-3-Clause",
     "authors": [
         {
-            "name": "José Lorente",
-            "email": "jose.lorente.martin@gmail.com"
+            "name": "Matt Novik after José Lorente",
+            "email": "matvej.novik@gmail.com"
         }
     ],
     "require": {
         "php": ">=7.1.3",
         "illuminate/support": ">=5.5",
-        "jlorente/zadarma-php-sdk": "^1.0"
+        "mnovik/zadarma-php-sdk": "dev-master"
     },
     "autoload": {
         "psr-4": {
